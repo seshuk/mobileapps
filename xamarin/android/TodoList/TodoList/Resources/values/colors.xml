@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#2196F3</color>
+  <color name="primaryDark">#1976D2</color>
+  <color name="accent">#D35400</color>
+  <color name="window_background">#F5F5F5</color>
+
+  <color name="primary_pressed">#FF839EB8</color>
+
+  <color name="ripple">#F06292</color>
+  <color name="accent_pressed">#FFB04600</color>
+</resources>
