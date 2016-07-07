@@ -1560,11 +1560,8 @@ namespace TodoList
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0054
-			public const int MyButton = 2131427412;
-			
-			// aapt resource value: 0x7f0b0057
-			public const int MyButton1 = 2131427415;
+			// aapt resource value: 0x7f0b0055
+			public const int MyButton = 2131427413;
 			
 			// aapt resource value: 0x7f0b0058
 			public const int action0 = 2131427416;
@@ -1659,6 +1656,9 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0044
 			public const int edit_query = 2131427396;
 			
+			// aapt resource value: 0x7f0b0054
+			public const int edittext1 = 2131427412;
+			
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
 			
@@ -1671,8 +1671,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0039
 			public const int expanded_menu = 2131427385;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int faButton = 2131427414;
+			// aapt resource value: 0x7f0b0057
+			public const int faButton = 2131427415;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int home = 2131427332;
@@ -1701,8 +1701,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int listView1 = 2131427413;
+			// aapt resource value: 0x7f0b0056
+			public const int listView1 = 2131427414;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int list_item = 2131427369;

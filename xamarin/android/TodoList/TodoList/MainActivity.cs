@@ -5,6 +5,8 @@ using Android.Support.V7.App;
 using Android.Widget;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
 using com.refractored.fab;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace TodoList
 {
@@ -12,9 +14,18 @@ namespace TodoList
     public class MainActivity : AppCompatActivity
     {
         int count = 1;
+        System.Collections.IList items;
+        FloatingActionButton fab;
+        ListView listView;
+
 
         protected override void OnCreate(Bundle bundle)
         {
+
+            items = new List<string> { "Vegetables", "Fruits", "Flower Buds", "Legumes", "Bulbs", "Tubers" , "Vegetables", "Fruits", "Flower Buds", "Legumes", "Bulbs"};
+            
+            
+
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
@@ -31,15 +42,22 @@ namespace TodoList
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.MyButton);
+            EditText txt = FindViewById<EditText>(Resource.Id.edittext1);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            button.Click += delegate {
 
-            var items = new string[] { "Vegetables", "Fruits", "Flower Buds", "Legumes", "Bulbs", "Tubers", "Vegetables", "Fruits", "Flower Buds", "Legumes", "Bulbs", "Tubers" };
+                //button.Text = string.Format("{0} clicks!", count++);
+                items.Add(txt.Text);
+                listView.Adapter = new ArrayAdapter(this, Resource.Layout.ListViewTemplate, items);
+                txt.Text = "";
+            };
 
-            var listView = FindViewById<ListView>(Resource.Id.listView1);
+            
+
+            listView = FindViewById<ListView>(Resource.Id.listView1);
 
             listView.Adapter = new ArrayAdapter(this, Resource.Layout.ListViewTemplate, items);
-            var fab = FindViewById<FloatingActionButton>(Resource.Id.faButton);
+            fab = FindViewById<FloatingActionButton>(Resource.Id.faButton);
             fab.AttachToListView(listView);
 
         }
