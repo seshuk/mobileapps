@@ -22,9 +22,12 @@
         <Button
             android:id="@+id/MyButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48.5dp"
             android:text="@string/Hello"
-            android:background="@color/accent" />
+            android:background="@color/accent"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="25dp"/>
+      
       <FrameLayout 
         android:layout_width="match_parent"
         android:layout_height="match_parent">
