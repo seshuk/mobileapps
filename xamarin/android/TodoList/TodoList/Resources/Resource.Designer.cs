@@ -1629,6 +1629,9 @@ namespace TodoList
 			// aapt resource value: 0x7f0b003a
 			public const int checkbox = 2131427386;
 			
+			// aapt resource value: 0x7f0b0052
+			public const int chkTaskComplete = 2131427410;
+			
 			// aapt resource value: 0x7f0b0061
 			public const int chronometer = 2131427425;
 			
@@ -1845,11 +1848,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0062
 			public const int text2 = 2131427426;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int textItem = 2131427410;
-			
 			// aapt resource value: 0x7f0b0053
-			public const int textItem1 = 2131427411;
+			public const int textItem = 2131427411;
 			
 			// aapt resource value: 0x7f0b0035
 			public const int textSpacerNoButtons = 2131427381;
