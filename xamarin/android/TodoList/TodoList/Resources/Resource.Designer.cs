@@ -1569,9 +1569,6 @@ namespace TodoList
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b005b
-			public const int MyButton = 2131427419;
-			
 			// aapt resource value: 0x7f0b005e
 			public const int action0 = 2131427422;
 			
@@ -1619,6 +1616,9 @@ namespace TodoList
 			
 			// aapt resource value: 0x7f0b0025
 			public const int activity_chooser_view_content = 2131427365;
+			
+			// aapt resource value: 0x7f0b005b
+			public const int addTaskButton = 2131427419;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int alertTitle = 2131427377;
