@@ -93,9 +93,19 @@ namespace TodoList.Adapters
 
             var taskCompleteCheckBox = view.FindViewById<CheckBox>(Resource.Id.chkTaskComplete);
 
+            var percentCompletePgBar = view.FindViewById<ProgressBar>(Resource.Id.percentComplete);
+
+            percentCompletePgBar.Max = 100;
+
+            var dueDateText = view.FindViewById<TextView>(Resource.Id.dueDate);
+
             contactName.Text = _todoList[position].Task;
 
             taskCompleteCheckBox.Checked = _todoList[position].IsCompleted;
+
+            dueDateText.Text = _todoList[position].DueDate.ToShortDateString();
+
+            percentCompletePgBar.Progress = _todoList[position].PercentageComplete;
 
             return view;
         }

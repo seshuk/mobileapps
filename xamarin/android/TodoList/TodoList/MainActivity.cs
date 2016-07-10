@@ -93,7 +93,9 @@ namespace TodoList
                 Id = new Guid(),
                 Task = "Task 1",
                 StartDate = DateTime.Now,
-                DueDate = DateTime.Now.Add(new TimeSpan(5, 0, 0))
+                DueDate = DateTime.Now.Add(new TimeSpan(5, 0, 0)),
+                PercentageComplete = 10
+                
 
             });
 
@@ -102,8 +104,8 @@ namespace TodoList
                 Id = new Guid(),
                 Task = "Task 2",
                 StartDate = DateTime.Now,
-                DueDate = DateTime.Now.Add(new TimeSpan(5, 0, 0))
-
+                DueDate = DateTime.Now.Add(new TimeSpan(5, 0, 0)),
+                PercentageComplete = 60
             });
 
             _todoList.Add(new ToDo()

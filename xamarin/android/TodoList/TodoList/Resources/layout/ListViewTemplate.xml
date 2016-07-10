@@ -1,20 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:padding="2dp" 
     android:id="@+id/main_content1">
   
   <CheckBox
         android:text=""
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/chkTaskComplete"
-        android:layout_marginRight="0.0dp" />
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="desc"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@+id/chkTaskComplete">
     <TextView
         android:id="@+id/textItem"
-        android:textSize="24sp"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="head"
+        android:textStyle="bold"
+        android:textSize="20sp" />
 
-</LinearLayout>
+  
+    <ProgressBar
+         android:id="@+id/percentComplete"
+         android:layout_width="fill_parent"
+         android:layout_height="5sp"
+         android:layout_marginRight="5dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="5dp"
+         style="@android:style/Widget.ProgressBar.Horizontal"
+         android:progressDrawable="@drawable/custom_progress_bar"/>
+        
+    </LinearLayout>
+  
+    <TextView
+        android:id="@+id/dueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/percentComplete"
+        android:layout_alignBottom="@+id/percentComplete"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:textSize="12sp" />
+</RelativeLayout>
