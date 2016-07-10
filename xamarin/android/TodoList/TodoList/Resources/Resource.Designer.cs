@@ -1521,34 +1521,40 @@ namespace TodoList
 			public const int custom_progress_bar = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int fab_shadow = 2130837580;
+			public const int delete = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int fab_shadow_mini = 2130837581;
+			public const int fab_shadow = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int ic_action_content_create = 2130837582;
+			public const int fab_shadow_mini = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_action_content_new = 2130837583;
+			public const int ic_action_content_create = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_action_content_redo = 2130837584;
+			public const int ic_action_content_new = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_action_content_save = 2130837585;
+			public const int ic_action_content_redo = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_action_content_undo = 2130837586;
+			public const int ic_action_content_remove = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_action_social_share = 2130837587;
+			public const int ic_action_content_save = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int Icon = 2130837588;
+			public const int ic_action_content_undo = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int notification_template_icon_bg = 2130837589;
+			public const int ic_action_social_share = 2130837589;
+			
+			// aapt resource value: 0x7f020056
+			public const int Icon = 2130837590;
+			
+			// aapt resource value: 0x7f020057
+			public const int notification_template_icon_bg = 2130837591;
 			
 			static Drawable()
 			{
@@ -1563,11 +1569,11 @@ namespace TodoList
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0059
-			public const int MyButton = 2131427417;
+			// aapt resource value: 0x7f0b005b
+			public const int MyButton = 2131427419;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int action0 = 2131427420;
+			// aapt resource value: 0x7f0b005e
+			public const int action0 = 2131427422;
 			
 			// aapt resource value: 0x7f0b0042
 			public const int action_bar = 2131427394;
@@ -1593,8 +1599,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0043
 			public const int action_context_bar = 2131427395;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int action_divider = 2131427424;
+			// aapt resource value: 0x7f0b0062
+			public const int action_divider = 2131427426;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1626,8 +1632,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b002c
 			public const int buttonPanel = 2131427372;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int cancel_action = 2131427421;
+			// aapt resource value: 0x7f0b005f
+			public const int cancel_action = 2131427423;
 			
 			// aapt resource value: 0x7f0b003a
 			public const int checkbox = 2131427386;
@@ -1635,8 +1641,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0052
 			public const int chkTaskComplete = 2131427410;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int chronometer = 2131427427;
+			// aapt resource value: 0x7f0b0065
+			public const int chronometer = 2131427429;
 			
 			// aapt resource value: 0x7f0b001d
 			public const int collapseActionView = 2131427357;
@@ -1656,23 +1662,26 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0028
 			public const int default_activity_button = 2131427368;
 			
+			// aapt resource value: 0x7f0b0057
+			public const int deleteButton = 2131427415;
+			
 			// aapt resource value: 0x7f0b000c
 			public const int disableHome = 2131427340;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int dueDate = 2131427413;
+			// aapt resource value: 0x7f0b0056
+			public const int dueDate = 2131427414;
 			
 			// aapt resource value: 0x7f0b0044
 			public const int edit_query = 2131427396;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int edittext1 = 2131427416;
+			// aapt resource value: 0x7f0b005a
+			public const int edittext1 = 2131427418;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int end_padder = 2131427432;
+			// aapt resource value: 0x7f0b006a
+			public const int end_padder = 2131427434;
 			
 			// aapt resource value: 0x7f0b0026
 			public const int expand_activities_button = 2131427366;
@@ -1680,8 +1689,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0039
 			public const int expanded_menu = 2131427385;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int faButton = 2131427419;
+			// aapt resource value: 0x7f0b005d
+			public const int faButton = 2131427421;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int home = 2131427332;
@@ -1698,44 +1707,44 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0027
 			public const int image = 2131427367;
 			
+			// aapt resource value: 0x7f0b0069
+			public const int info = 2131427433;
+			
+			// aapt resource value: 0x7f0b0063
+			public const int line1 = 2131427427;
+			
 			// aapt resource value: 0x7f0b0067
-			public const int info = 2131427431;
-			
-			// aapt resource value: 0x7f0b0061
-			public const int line1 = 2131427425;
-			
-			// aapt resource value: 0x7f0b0065
-			public const int line3 = 2131427429;
+			public const int line3 = 2131427431;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int listView1 = 2131427418;
+			// aapt resource value: 0x7f0b005c
+			public const int listView1 = 2131427420;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int list_item = 2131427369;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int main_content = 2131427415;
+			// aapt resource value: 0x7f0b0059
+			public const int main_content = 2131427417;
 			
 			// aapt resource value: 0x7f0b0051
 			public const int main_content1 = 2131427409;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int media_actions = 2131427423;
-			
-			// aapt resource value: 0x7f0b006a
-			public const int menu_settings = 2131427434;
-			
-			// aapt resource value: 0x7f0b006b
-			public const int menu_settings1 = 2131427435;
+			// aapt resource value: 0x7f0b0061
+			public const int media_actions = 2131427425;
 			
 			// aapt resource value: 0x7f0b006c
-			public const int menu_settings2 = 2131427436;
+			public const int menu_settings = 2131427436;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int menu_share = 2131427433;
+			// aapt resource value: 0x7f0b006d
+			public const int menu_settings1 = 2131427437;
+			
+			// aapt resource value: 0x7f0b006e
+			public const int menu_settings2 = 2131427438;
+			
+			// aapt resource value: 0x7f0b006b
+			public const int menu_share = 2131427435;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int middle = 2131427355;
@@ -1758,8 +1767,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b002e
 			public const int parentPanel = 2131427374;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int percentComplete = 2131427412;
+			// aapt resource value: 0x7f0b0055
+			public const int percentComplete = 2131427413;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int progress_circular = 2131427333;
@@ -1842,8 +1851,8 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0018
 			public const int src_over = 2131427352;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int status_bar_latest_event_content = 2131427422;
+			// aapt resource value: 0x7f0b0060
+			public const int status_bar_latest_event_content = 2131427424;
 			
 			// aapt resource value: 0x7f0b004d
 			public const int submit_area = 2131427405;
@@ -1851,20 +1860,20 @@ namespace TodoList
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
+			// aapt resource value: 0x7f0b0068
+			public const int text = 2131427432;
+			
 			// aapt resource value: 0x7f0b0066
-			public const int text = 2131427430;
+			public const int text2 = 2131427430;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int text2 = 2131427428;
-			
-			// aapt resource value: 0x7f0b0053
-			public const int textItem = 2131427411;
+			// aapt resource value: 0x7f0b0054
+			public const int textItem = 2131427412;
 			
 			// aapt resource value: 0x7f0b0035
 			public const int textSpacerNoButtons = 2131427381;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int time = 2131427426;
+			// aapt resource value: 0x7f0b0064
+			public const int time = 2131427428;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int title = 2131427371;
@@ -1872,8 +1881,11 @@ namespace TodoList
 			// aapt resource value: 0x7f0b0030
 			public const int title_template = 2131427376;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int toolbar = 2131427414;
+			// aapt resource value: 0x7f0b0053
+			public const int todoDetail = 2131427411;
+			
+			// aapt resource value: 0x7f0b0058
+			public const int toolbar = 2131427416;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int topPanel = 2131427375;

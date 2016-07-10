@@ -13,9 +13,11 @@
         android:contentDescription="desc"
         android:paddingLeft="10dp"
         android:paddingRight="10dp" />
+  
   <LinearLayout
+        android:id="@+id/todoDetail"
         android:orientation="vertical"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:layout_toRightOf="@+id/chkTaskComplete">
     <TextView
@@ -45,9 +47,19 @@
         android:id="@+id/dueDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/percentComplete"
-        android:layout_alignBottom="@+id/percentComplete"
-        android:layout_alignParentRight="true"
         android:layout_marginTop="15dp"
-        android:textSize="12sp" />
+        android:textSize="12sp" 
+        android:layout_toLeftOf="@+id/deleteButton"/>
+  
+    <ImageButton android:id="@+id/deleteButton"
+        android:layout_width="12dip"
+        android:layout_height="12dip"
+        android:layout_margin="10dp"
+        
+        android:padding="10dp"
+        android:src="@drawable/ic_action_content_remove"
+        android:layout_alignBaseline="@+id/todoDetail"
+        android:layout_alignBottom="@+id/todoDetail"
+        android:layout_alignParentRight="true"/>
+   
 </RelativeLayout>

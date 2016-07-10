@@ -103,21 +103,25 @@
     <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_save.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_undo.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_create.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_remove.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_redo.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_social_share.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_save.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_undo.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_create.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_remove.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_redo.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_social_share.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_save.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_undo.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_create.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_remove.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_redo.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_social_share.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_save.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_undo.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_create.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_remove.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -153,10 +157,15 @@
     <AndroidResource Include="Resources\values\colors.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\ListViewTemplate.xml" />
+    <AndroidResource Include="Resources\layout\ListViewTemplate.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\custom_progress_bar.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\delete.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
