@@ -127,24 +127,28 @@
     <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_undo.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_create.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_remove.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_discard.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_redo.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_social_share.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_save.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_undo.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_create.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_remove.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_discard.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_redo.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_social_share.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_save.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_undo.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_create.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_remove.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_discard.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_redo.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_social_share.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_save.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_undo.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_create.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_remove.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_discard.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />

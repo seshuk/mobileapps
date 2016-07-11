@@ -57,7 +57,7 @@
         android:layout_margin="10dp"
         
         android:padding="10dp"
-        android:src="@drawable/ic_action_content_remove"
+        android:src="@drawable/ic_action_discard"
         android:layout_alignBaseline="@+id/todoDetail"
         android:layout_alignBottom="@+id/todoDetail"
         android:layout_alignParentRight="true"/>
