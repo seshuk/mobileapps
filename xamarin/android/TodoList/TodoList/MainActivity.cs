@@ -90,7 +90,7 @@ namespace TodoList
 
             fab.SetCommand(
                "Click",
-               Vm.AddTaskCommand, newTodo);
+                Vm.AddTaskCommand, newTodo);
         }
 
 

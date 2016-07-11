@@ -6,6 +6,9 @@ namespace TodoList.ViewModels
 {
     public class ViewModelLocator
     {
+
+        public const string DetailsPageKey = "DetailsPage";
+
         public ViewModelLocator()
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TodoList.Models;
 using System;
+using GalaSoft.MvvmLight.Views;
 
 namespace TodoList.ViewModels
 {
@@ -12,8 +13,13 @@ namespace TodoList.ViewModels
     {
         public ObservableCollection<ToDo> Todos { get; private set; }
 
-        public TodoListViewModel()
+        private readonly INavigationService navigationService;
+
+        
+
+        public TodoListViewModel(INavigationService navigationService)
         {
+            this.navigationService = navigationService;
             AddTaskCommand = new RelayCommand<string>((txt) => AddTask(txt));
         }
 
@@ -103,6 +109,23 @@ namespace TodoList.ViewModels
 
 
             });
+        }
+
+        private RelayCommand navigateCommand;
+
+        /// <summary>
+		/// Gets the NavigateCommand.
+		/// Goes to the second page, using the navigation service.
+		/// Use the "mvvmr*" snippet group to create more such commands.
+		/// </summary>
+		public RelayCommand NavigateCommand
+        {
+            get
+            {
+                return navigateCommand
+                    ?? (navigateCommand = new RelayCommand(() => navigationService.NavigateTo(
+                            ViewModelLocator.DetailsPageKey)));
+            }
         }
     }
 }
