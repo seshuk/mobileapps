@@ -32,14 +32,20 @@ namespace TodoList
 			global::com.refractored.fab.Resource.Attribute.fab_colorRipple = global::TodoList.Resource.Attribute.fab_colorRipple;
 			global::com.refractored.fab.Resource.Attribute.fab_shadow = global::TodoList.Resource.Attribute.fab_shadow;
 			global::com.refractored.fab.Resource.Attribute.fab_size = global::TodoList.Resource.Attribute.fab_size;
+			global::com.refractored.fab.Resource.Attribute.layoutManager = global::TodoList.Resource.Attribute.layoutManager;
+			global::com.refractored.fab.Resource.Attribute.reverseLayout = global::TodoList.Resource.Attribute.reverseLayout;
+			global::com.refractored.fab.Resource.Attribute.spanCount = global::TodoList.Resource.Attribute.spanCount;
+			global::com.refractored.fab.Resource.Attribute.stackFromEnd = global::TodoList.Resource.Attribute.stackFromEnd;
 			global::com.refractored.fab.Resource.Color.fab_material_blue_500 = global::TodoList.Resource.Color.fab_material_blue_500;
 			global::com.refractored.fab.Resource.Dimension.fab_elevation_lollipop = global::TodoList.Resource.Dimension.fab_elevation_lollipop;
 			global::com.refractored.fab.Resource.Dimension.fab_scroll_threshold = global::TodoList.Resource.Dimension.fab_scroll_threshold;
 			global::com.refractored.fab.Resource.Dimension.fab_shadow_size = global::TodoList.Resource.Dimension.fab_shadow_size;
 			global::com.refractored.fab.Resource.Dimension.fab_size_mini = global::TodoList.Resource.Dimension.fab_size_mini;
 			global::com.refractored.fab.Resource.Dimension.fab_size_normal = global::TodoList.Resource.Dimension.fab_size_normal;
+			global::com.refractored.fab.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::TodoList.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::com.refractored.fab.Resource.Drawable.fab_shadow = global::TodoList.Resource.Drawable.fab_shadow;
 			global::com.refractored.fab.Resource.Drawable.fab_shadow_mini = global::TodoList.Resource.Drawable.fab_shadow_mini;
+			global::com.refractored.fab.Resource.Id.item_touch_helper_previous_elevation = global::TodoList.Resource.Id.item_touch_helper_previous_elevation;
 			global::com.refractored.fab.Resource.Id.mini = global::TodoList.Resource.Id.mini;
 			global::com.refractored.fab.Resource.Id.normal = global::TodoList.Resource.Id.normal;
 			global::com.refractored.fab.Resource.Styleable.FloatingActionButton = global::TodoList.Resource.Styleable.FloatingActionButton;
@@ -49,6 +55,12 @@ namespace TodoList
 			global::com.refractored.fab.Resource.Styleable.FloatingActionButton_fab_colorRipple = global::TodoList.Resource.Styleable.FloatingActionButton_fab_colorRipple;
 			global::com.refractored.fab.Resource.Styleable.FloatingActionButton_fab_shadow = global::TodoList.Resource.Styleable.FloatingActionButton_fab_shadow;
 			global::com.refractored.fab.Resource.Styleable.FloatingActionButton_fab_size = global::TodoList.Resource.Styleable.FloatingActionButton_fab_size;
+			global::com.refractored.fab.Resource.Styleable.RecyclerView = global::TodoList.Resource.Styleable.RecyclerView;
+			global::com.refractored.fab.Resource.Styleable.RecyclerView_android_orientation = global::TodoList.Resource.Styleable.RecyclerView_android_orientation;
+			global::com.refractored.fab.Resource.Styleable.RecyclerView_layoutManager = global::TodoList.Resource.Styleable.RecyclerView_layoutManager;
+			global::com.refractored.fab.Resource.Styleable.RecyclerView_reverseLayout = global::TodoList.Resource.Styleable.RecyclerView_reverseLayout;
+			global::com.refractored.fab.Resource.Styleable.RecyclerView_spanCount = global::TodoList.Resource.Styleable.RecyclerView_spanCount;
+			global::com.refractored.fab.Resource.Styleable.RecyclerView_stackFromEnd = global::TodoList.Resource.Styleable.RecyclerView_stackFromEnd;
 		}
 		
 		public partial class Animation

@@ -6,11 +6,16 @@ using System.Linq;
 using TodoList.Models;
 using System;
 using GalaSoft.MvvmLight.Views;
+using TodoList.Helpers;
+using System.Threading.Tasks;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace TodoList.ViewModels
 {
     public class TodoListViewModel : ViewModelBase
     {
+        AzureDataService azureService;
+
         public ObservableCollection<ToDo> Todos { get; private set; }
 
         private readonly INavigationService navigationService;
@@ -72,7 +77,7 @@ namespace TodoList.ViewModels
             return tasks;
         }
 
-        public void Initialize()
+        public async Task Initialize()
         {
             if (Todos != null)
             {
@@ -83,6 +88,14 @@ namespace TodoList.ViewModels
             }
 
             Todos = new ObservableCollection<ToDo>();
+
+            if (!Settings.IsLoggedIn)
+            {
+                await azureService.Initialize();
+                var user = await DependencyService.Get<IAuthentication>().LoginAsync(azureService.MobileService, MobileServiceAuthenticationProvider.MicrosoftAccount);
+                if (user == null)
+                    return;
+            }
 
             var people = SeedData();
             Todos.Clear();

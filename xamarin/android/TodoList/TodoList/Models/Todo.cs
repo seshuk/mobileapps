@@ -5,8 +5,13 @@ namespace TodoList.Models
 {
     public class ToDo : ObservableObject
     {
-            public Guid Id { get; set; }
-            public string Task { get; set; }
+        [Newtonsoft.Json.JsonProperty("Id")]
+        public Guid Id { get; set; }
+
+        [Microsoft.WindowsAzure.MobileServices.Version]
+        public string AzureVersion { get; set; }
+
+        public string Task { get; set; }
             public string Notes { get; set; }
             public DateTime StartDate { get; set; }
             public DateTime DueDate { get; set; }

@@ -59,6 +59,9 @@ namespace TodoList
 
             base.OnCreate(bundle);
 
+
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
