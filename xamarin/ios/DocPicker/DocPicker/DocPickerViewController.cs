@@ -4,6 +4,7 @@ using CoreGraphics;
 using Foundation;
 using UIKit;
 using MobileCoreServices;
+using System.Drawing;
 
 namespace DocPicker
 {
@@ -145,7 +146,7 @@ namespace DocPicker
 			};
 
 			// Wireup the Save button
-			SaveButton.Clicked += (sender, e) => {
+			/*SaveButton.Clicked += (sender, e) => {
 				// Close the keyboard
 				DocumentText.ResignFirstResponder();
 
@@ -156,7 +157,7 @@ namespace DocPicker
 			// Wireup the Action buttom
 			ActionButton.Clicked += (s, e) => {
 				LoadMenu(s,e);
-			};
+			};*/
 
 			firstDocument.TouchUpInside += LoadMenu;
 
@@ -194,13 +195,10 @@ namespace DocPicker
 
 
 					string fileName = System.IO.Path.GetFileName(pArgs.Url.Path);
-					int buttonNo = 1;
+					 
 					if (btn != null) {
-						if (btn.TitleLabel.Text == secondButton.TitleLabel.Text )
-						{
+						if (btn == secondButton)
 							secondDocName.Text = fileName;
-							buttonNo = 2;
-						}
 						else
 							firstDocName.Text = fileName;
 					}else
@@ -227,11 +225,13 @@ namespace DocPicker
 						Console.WriteLine(strNet);*/
 						var txt = string.Format("{0} KB", Math.Ceiling( (double) data.Length / 1024));
 
-						if (buttonNo == 1)
+						if (btn == firstDocument)
 							firstFileSize.Text = txt;
 						else
 							SecondFileSize.Text = txt;
 
+						//var viewer = UIDocumentInteractionController.FromUrl(newUrl);
+						//viewer.PresentOpenInMenu(new RectangleF(0, -260, 320, 320), this.View, true);
 
 					});
 
