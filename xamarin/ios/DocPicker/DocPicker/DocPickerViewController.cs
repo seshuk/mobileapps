@@ -88,7 +88,7 @@ namespace DocPicker
 			UIView.SetAnimationDuration(0.3f);
 
 			// Adjust frame to move the text away from the keyboard
-			DocumentText.Frame = new CGRect (0, DocumentText.Frame.Y, DocumentText.Frame.Width, height);
+			//DocumentText.Frame = new CGRect (0, DocumentText.Frame.Y, DocumentText.Frame.Width, height);
 
 			// Start animation
 			UIView.CommitAnimations();
@@ -116,53 +116,38 @@ namespace DocPicker
 			base.ViewDidLoad ();
 
 			// Save the default text area height
-			_documentTextHeight = DocumentText.Frame.Height;
+			//_documentTextHeight = DocumentText.Frame.Height;
 
 			// var picker = new UIDocumentPickerViewController (srcURL, UIDocumentPickerMode.ExportToService);
 
 			// Watch for a new document being created
 			ThisApp.DocumentLoaded += (document) => {
 				// Display the contents of the document
-				DocumentText.Text = document.Contents;
+				//DocumentText.Text = document.Contents;
 
 				// Watch for the document being modified by an outside source
 				document.DocumentModified += (doc) => {
 					// Display the updated contents of the document
-					DocumentText.Text = doc.Contents;
+					//DocumentText.Text = doc.Contents;
 					Console.WriteLine("Document contents have been updated");
 				};
 			};
 
-			// Wireup events for the text editor
-			DocumentText.ShouldBeginEditing= delegate(UITextView field){
-				//Placeholder
-				MoveDocumentText(_documentTextHeight-170f);
-				return true;
-			};
-			DocumentText.ShouldEndEditing= delegate (UITextView field){
-				MoveDocumentText(_documentTextHeight);
-				ThisApp.Document.Contents = DocumentText.Text;
-				return true;
-			};
-
-			// Wireup the Save button
-			/*SaveButton.Clicked += (sender, e) => {
-				// Close the keyboard
-				DocumentText.ResignFirstResponder();
-
-				// Save the changes to the document
-				ThisApp.SaveDocument();
-			};
-
-			// Wireup the Action buttom
-			ActionButton.Clicked += (s, e) => {
-				LoadMenu(s,e);
-			};*/
 
 			firstDocument.TouchUpInside += LoadMenu;
 
 			secondButton.TouchUpInside += LoadMenu;
 
+            compareButton.TouchUpInside += (sender, e) => {
+                // TODO: ADD method call to compare api
+
+                var alert = UIAlertController.Create("coming soon", "this function is coming soon", UIAlertControllerStyle.Alert);
+                alert.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, (action) => {
+                    // Add OK details here...
+                }));
+                
+                this.PresentViewController(alert, true, null);
+            };
 
 		}
 		//	UTType.Image, UTType.PNG,,
@@ -176,7 +161,7 @@ namespace DocPicker
 					UTType.RTF,
 					UTType.Text,
 					UTType.PDF,
-     				UTType.CompositeContent
+					UTType.CompositeContent
 				};
 			UIButton btn = s as UIButton;
 			// Display the picker

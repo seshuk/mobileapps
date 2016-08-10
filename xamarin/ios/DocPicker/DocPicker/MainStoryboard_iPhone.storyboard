@@ -29,41 +29,30 @@
                                     <navigationItem title="compareDocs" id="6"/>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
-                                <rect key="frame" x="0.0" y="488" width="320" height="70"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="131"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="350" id="132"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="260" verticalCompressionResistancePriority="740" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="9O9-Pp-SEo">
-                                <rect key="frame" x="10" y="75" width="305" height="298"/>
+                                <rect key="frame" x="10" y="75" width="206.5" height="283"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="YcQ-0a-zet">
-                                        <rect key="frame" x="0.0" y="0.0" width="305" height="188"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="YcQ-0a-zet" fixedFrame="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="173"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OPk-ri-8v1">
-                                                <rect key="frame" x="0.0" y="0.0" width="305" height="79"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OPk-ri-8v1" fixedFrame="YES">
+                                                <rect key="frame" x="0.0" y="0.0" width="206.5" height="71.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Origianl Document" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="149">
-                                                        <rect key="frame" x="0.0" y="0.0" width="155" height="22"/>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Origianl Document" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="149" fixedFrame="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="155" height="21.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="y0o-xm-caa">
-                                                        <rect key="frame" x="0.0" y="32" width="305" height="47"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="y0o-xm-caa" fixedFrame="YES">
+                                                        <rect key="frame" x="0.0" y="31.5" width="196.5" height="40"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xPa-Mc-hSe">
-                                                                <rect key="frame" x="0.0" y="0.0" width="220" height="47"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xPa-Mc-hSe" fixedFrame="YES">
+                                                                <rect key="frame" x="0.0" y="0.0" width="147.5" height="40"/>
                                                                 <subviews>
                                                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="DOCUMENT NAME" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="37">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="220" height="21"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="147.5" height="20.5"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="40"/>
@@ -74,7 +63,7 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" ambiguous="YES" misplaced="YES" text="FILE SIZE" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="78">
-                                                                        <rect key="frame" x="0.0" y="26" width="115" height="21"/>
+                                                                        <rect key="frame" x="0.0" y="25.5" width="53.5" height="14.5"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="115" id="89"/>
@@ -87,7 +76,7 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19">
-                                                                <rect key="frame" x="225" y="0.0" width="80" height="47"/>
+                                                                <rect key="frame" x="152.5" y="0.0" width="44" height="40"/>
                                                                 <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="80" id="26"/>
@@ -107,24 +96,24 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mV2-hp-ntB">
-                                                <rect key="frame" x="0.0" y="109" width="305" height="79"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mV2-hp-ntB" fixedFrame="YES">
+                                                <rect key="frame" x="0.0" y="101.5" width="206.5" height="71.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Modified Document" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="H8p-51-qT4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="163" height="22"/>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Modified Document" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="H8p-51-qT4" fixedFrame="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="163" height="21.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pnq-RP-6dS">
-                                                        <rect key="frame" x="0.0" y="32" width="305" height="47"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pnq-RP-6dS" fixedFrame="YES">
+                                                        <rect key="frame" x="0.0" y="31.5" width="206.5" height="40"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="i45-EZ-UCG">
-                                                                <rect key="frame" x="0.0" y="0.0" width="220" height="47"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="i45-EZ-UCG" fixedFrame="YES">
+                                                                <rect key="frame" x="0.0" y="0.0" width="157.5" height="40"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="DOCUMENT2 NAME" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="41">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="220" height="21"/>
+                                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="DOCUMENT2 NAME" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="41" misplaced="YES">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="20.5"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="44"/>
@@ -133,8 +122,8 @@
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="FILE2 SIZE" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="91">
-                                                                        <rect key="frame" x="0.0" y="26" width="125" height="21"/>
+                                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="FILE2 SIZE" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="91" misplaced="YES">
+                                                                        <rect key="frame" x="0.0" y="25.5" width="61" height="14.5"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="125" id="111"/>
@@ -146,8 +135,8 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="115">
-                                                                <rect key="frame" x="225" y="0.0" width="80" height="47"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="115" misplaced="YES">
+                                                                <rect key="frame" x="162.5" y="0.0" width="44" height="40"/>
                                                                 <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="80" id="148"/>
@@ -169,8 +158,8 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="125">
-                                        <rect key="frame" x="113" y="268" width="80" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="125" misplaced="YES">
+                                        <rect key="frame" x="72" y="253" width="63" height="30"/>
                                         <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="muc-Am-BhY"/>
@@ -190,15 +179,10 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="8" secondAttribute="trailing" id="140"/>
-                            <constraint firstAttribute="bottom" secondItem="8" secondAttribute="bottom" constant="10" id="141"/>
-                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="DocumentText" destination="8" id="name-outlet-8"/>
                         <outlet property="SecondFileSize" destination="91" id="name-outlet-91"/>
                         <outlet property="compareButton" destination="125" id="name-outlet-125"/>
                         <outlet property="firstDocName" destination="37" id="name-outlet-37"/>
@@ -216,4 +200,18 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <resources>
+        <image name="Default-568h.png" width="320" height="568"/>
+        <image name="Default-Landscape.png" width="1024" height="768"/>
+        <image name="Default-Portrait.png" width="768" height="1024"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Icon-72.png" width="72" height="72"/>
+        <image name="Icon-76.png" width="76" height="76"/>
+        <image name="Icon-Small-50.png" width="50" height="50"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="Icon-Spotlight-40.png" width="40" height="40"/>
+        <image name="Icon.png" width="57" height="57"/>
+        <image name="Logo.png" width="512" height="512"/>
+    </resources>
 </document>
