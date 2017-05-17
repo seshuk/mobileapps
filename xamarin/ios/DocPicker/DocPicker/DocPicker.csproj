@@ -55,8 +55,7 @@ access external, cloud-based Documents.</Description>
     </IpaPackageName>
     <MtouchI18n>
     </MtouchI18n>
-    <MtouchArch>ARMv7</MtouchArch>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignProvision></CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">

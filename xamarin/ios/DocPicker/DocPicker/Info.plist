@@ -63,5 +63,7 @@
 	</array>
 	<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 	<true/>
+	<key>CFBundleName</key>
+	<string>DocPicker</string>
 </dict>
 </plist>
